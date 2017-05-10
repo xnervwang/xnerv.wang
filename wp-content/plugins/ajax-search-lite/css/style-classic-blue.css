@@ -1,0 +1,322 @@
+
+div[id*="ajaxsearchlite"] {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    background-color: rgb(219, 233, 238);
+    background-image: radial-gradient(ellipse at center, rgb(219, 233, 238), rgb(219, 233, 238));
+    overflow: hidden;
+    border: 0px none rgb(0, 0, 0);
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: 0px 10px 18px -13px #000000;
+}
+
+#ajaxsearchlite1 .probox,
+div[id*="ajaxsearchlite"] .probox {
+    margin: 4px;
+    height: 28px;
+    background-color: rgb(255, 255, 255);
+    background-image: radial-gradient(ellipse at center, rgb(255, 255, 255), rgb(255, 255, 255));
+    border: 1px solid rgb(104, 174, 199);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 1px 0px 6px -3px rgb(181, 181, 181) inset;
+}
+
+#ajaxsearchlite1 .probox .proinput,
+div[id*="ajaxsearchlite"] .probox div.proinput {
+    font-weight: normal;
+    font-family: Open Sans;
+    color: rgb(0, 0, 0) !important;
+    font-size: 12px;
+    line-height: normal !important;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+#ajaxsearchlite1 .probox .proinput input,
+div[id*="ajaxsearchlite"] .probox div.proinput input {
+    font-weight: normal;
+    font-family: Open Sans;
+    color: rgb(0, 0, 0) !important;
+    font-size: 12px;
+    line-height: normal !important;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+    border: 0;
+    box-shadow: none;
+}
+
+div[id*="ajaxsearchlite"].asl_msie .probox div.proinput,
+div[id*="ajaxsearchlite"].asl_msie .probox div.proinput input {
+    line-height: 24px !important;
+}
+
+/* EACH PLACEHOLDER MUST HAVE A DIFFERENT RULE TO WORK */
+div[id*="ajaxsearchlite"] .probox .proinput input::-webkit-input-placeholder {
+    font-weight: normal;
+    font-family: Open Sans;
+    color: rgba(0, 0, 0, 0.6) !important;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+div[id*="ajaxsearchlite"] .probox .proinput input::-moz-placeholder {
+    font-weight: normal;
+    font-family: Open Sans;
+    color: rgba(0, 0, 0, 0.6) !important;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+div[id*="ajaxsearchlite"] .probox .proinput input:-ms-input-placeholder {
+    font-weight: normal;
+    font-family: Open Sans;
+    color: rgba(0, 0, 0, 0.6) !important;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+div[id*="ajaxsearchlite"] .probox .proinput input:-moz-placeholder {
+    font-weight: normal;
+    font-family: Open Sans;
+    color: rgba(0, 0, 0, 0.6) !important;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+
+div[id*="ajaxsearchlite"] .probox .proinput input.autocomplete {
+    font-weight: normal;
+    font-family: Open Sans;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    line-height: 15px;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+div[id*="ajaxsearchlite"] .probox .proloading,
+div[id*="ajaxsearchlite"] .probox .proclose,
+div[id*="ajaxsearchlite"] .probox .promagnifier,
+div[id*="ajaxsearchlite"] .probox .prosettings {
+    width: 28px;
+    height: 28px;
+}
+
+div[id*="ajaxsearchlite"] .probox .promagnifier .innericon svg {
+    fill: rgb(54, 54, 54);
+}
+
+div[id*='ajaxsearchlite'] .probox div.asl_simple-circle {
+    border: 4px solid rgb(54, 54, 54);
+}
+
+div[id*="ajaxsearchlite"] .probox .prosettings .innericon svg {
+    fill: rgb(54, 54, 54);
+}
+
+div[id*="ajaxsearchlite"] .probox .promagnifier {
+
+    width: 28px;
+    height: 28px;
+    background-color: rgb(108, 209, 245);
+    background-image: -o-linear-gradient(180deg, rgb(132, 197, 220), rgb(108, 209, 245));
+    background-image: -ms-linear-gradient(180deg, rgb(132, 197, 220), rgb(108, 209, 245));
+    background-image: -webkit-linear-gradient(180deg, rgb(132, 197, 220), rgb(108, 209, 245));
+    background-image: linear-gradient(180deg, rgb(132, 197, 220), rgb(108, 209, 245));
+    background-position: center center;
+    background-repeat: no-repeat;
+
+    border: 0px solid rgb(104, 174, 199);
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: -1px 1px 0px 0px rgba(255, 255, 255, 0.61) inset;
+    cursor: pointer;
+    background-size: 100% 100%;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+div[id*="ajaxsearchlite"] .probox .prosettings {
+
+    width: 28px;
+    height: 28px;
+    background-color: rgb(108, 209, 245);
+    background-image: -o-linear-gradient(185deg, rgb(104, 174, 199), rgb(108, 209, 245));
+    background-image: -ms-linear-gradient(185deg, rgb(104, 174, 199), rgb(108, 209, 245));
+    background-image: -webkit-linear-gradient(185deg, rgb(104, 174, 199), rgb(108, 209, 245));
+    background-image: linear-gradient(185deg, rgb(104, 174, 199), rgb(108, 209, 245));
+    background-position: center center;
+    background-repeat: no-repeat;
+    float: left;
+    border: 0px solid rgb(104, 174, 199);
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 1px 1px 0px 0px rgba(255, 255, 255, 0.63) inset;
+    cursor: pointer;
+    background-size: 100% 100%;
+}
+
+div[id*="ajaxsearchliteres"] {
+    position: absolute;
+    z-index: 1100;
+}
+
+div[id*="ajaxsearchliteres"].vertical {
+    padding: 4px;
+    background: rgb(153, 218, 241);
+    border-radius: 3px;
+    border: 0px none rgb(0, 0, 0);
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0px 0px 0px 0px #000000;
+    visibility: hidden;
+    display: none;
+}
+
+div[id*="ajaxsearchliteres"] .results .nores .keyword {
+    padding: 0 6px;
+    cursor: pointer;
+    font-weight: normal;
+    font-family: Open Sans;
+    color: rgb(74, 74, 74);
+    font-size: 13px;
+    line-height: 13px;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+    font-weight: bold;
+}
+
+div[id*="ajaxsearchliteres"] .results .item {
+    height: auto;
+    background: rgb(255, 255, 255);
+}
+
+div[id*="ajaxsearchliteres"].vertical .results .item:after {
+    background: rgb(204, 204, 204);
+}
+
+div[id*="ajaxsearchliteres"] .results .item.hovered {
+    background-color: rgb(235, 250, 255);
+}
+
+div[id*="ajaxsearchliteres"] .results .item .asl_image {
+    width: 70px;
+    height: 70px;
+}
+
+
+div[id*="ajaxsearchliteres"] .results .item .asl_content h3,
+div[id*="ajaxsearchliteres"] .results .item .asl_content h3 a {
+    margin: 0;
+    padding: 0;
+    line-height: inherit;
+    font-weight: normal;
+    font-family: 'Open Sans';
+    color: rgb(20, 84, 169);
+    font-size: 13px;
+    line-height: 18px;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+div[id*="ajaxsearchliteres"] .results .item .asl_content h3 a:hover {
+    font-weight: normal;
+    font-family: Open Sans;
+    color: rgb(46, 107, 188);
+    font-size: 13px;
+    line-height: 18px;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+div[id*="ajaxsearchliteres"] .results .item div.etc {
+    padding: 0;
+    line-height: 10px;
+    font-weight: bold;
+    font-family: Open Sans;
+    color: rgb(161, 161, 161);
+    font-size: 12px;
+    line-height: 13px;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+div[id*="ajaxsearchliteres"] .results .item .etc .asl_author {
+    padding: 0;
+    font-weight: bold;
+    font-family: Open Sans;
+    color: rgb(161, 161, 161);
+    font-size: 12px;
+    line-height: 13px;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+div[id*="ajaxsearchliteres"] .results .item .etc .asl_date {
+    margin: 0 0 0 10px;
+    padding: 0;
+    font-weight: normal;
+    font-family: Open Sans;
+    color: rgb(173, 173, 173);
+    font-size: 12px;
+    line-height: 15px;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+div[id*="ajaxsearchliteres"] .results .item p.desc {
+    margin: 2px 0px;
+    padding: 0;
+    font-weight: normal;
+    font-family: Open Sans;
+    color: rgb(74, 74, 74);
+    font-size: 13px;
+    line-height: 13px;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+div[id*="ajaxsearchliteres"] span.highlighted {
+    font-weight: bold;
+    color: #d9312b;
+    background-color: #eee;
+    color: rgba(217, 49, 43, 1);
+    background-color: rgba(238, 238, 238, 1);
+}
+
+/* Search settings */
+
+div[id*="ajaxsearchlitesettings"].searchsettings {
+    background-color: rgb(109, 204, 237);
+    background-image: linear-gradient(185deg, rgb(109, 204, 237), rgb(104, 174, 199));
+    background-image: -webkit-linear-gradient(185deg, rgb(109, 204, 237), rgb(104, 174, 199));
+    background-image: -moz-linear-gradient(185deg, rgb(109, 204, 237), rgb(104, 174, 199));
+    background-image: -o-linear-gradient(185deg, rgb(109, 204, 237), rgb(104, 174, 199));
+    background-image: -ms-linear-gradient(185deg, rgb(109, 204, 237), rgb(104, 174, 199));
+    background-image: linear-gradient(185deg, rgb(109, 204, 237), rgb(104, 174, 199));
+    background-image: -webkit-linear-gradient(185deg, rgb(109, 204, 237), rgb(104, 174, 199));
+    background-image: -moz-linear-gradient(185deg, rgb(109, 204, 237), rgb(104, 174, 199));
+    background-image: -o-linear-gradient(185deg, rgb(109, 204, 237), rgb(104, 174, 199));
+    background-image: -ms-linear-gradient(185deg, rgb(109, 204, 237), rgb(104, 174, 199));;
+    box-shadow: 2px 2px 3px -1px rgb(0, 0, 0);;
+}
+
+div[id*="ajaxsearchlitesettings"].searchsettings .label {
+    font-weight: bold;
+    font-family: Open Sans;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    line-height: 15px;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}
+
+div[id*="ajaxsearchlitesettings"].searchsettings .option label {
+    background-color: rgb(34, 34, 34);
+    background-image: linear-gradient(180deg, rgb(34, 34, 34), rgb(54, 55, 58));
+    background-image: -webkit-linear-gradient(180deg, rgb(34, 34, 34), rgb(54, 55, 58));
+    background-image: -moz-linear-gradient(180deg, rgb(34, 34, 34), rgb(54, 55, 58));
+    background-image: -o-linear-gradient(180deg, rgb(34, 34, 34), rgb(54, 55, 58));
+    background-image: -ms-linear-gradient(180deg, rgb(34, 34, 34), rgb(54, 55, 58));;
+}
+
+div[id*="ajaxsearchlitesettings"].searchsettings fieldset .categoryfilter {
+    max-height: 200px;
+    overflow: auto;
+}
+
+div[id*="ajaxsearchlitesettings"].searchsettings fieldset legend {
+    padding: 5px 0 0 10px;
+    margin: 0;
+    font-weight: normal;
+    font-family: Open Sans;
+    color: rgb(31, 31, 31);
+    font-size: 13px;
+    line-height: 15px;
+    text-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
+}

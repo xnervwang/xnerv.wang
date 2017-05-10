@@ -1,0 +1,258 @@
+// main: style.scss
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.sticky {
+	display: block;
+}
+
+.hentry {
+	margin: 0 0 1em;
+}
+
+h1.entry-title{
+	margin-top: 0;
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 3px;
+	line-height: 1.2;
+}
+
+.page , .single {
+	.hentry {
+
+		margin-bottom: 10px;
+	}
+}
+
+.single {
+	.entry-header {
+		margin-bottom: 10px;
+	}
+	.entry-content {
+		margin-top: 1.0625rem;
+		margin-bottom: 0;
+	}
+	.tags-links {
+		display: block;
+		color: #494949;
+	}
+}
+
+// .byline,
+.updated:not(.published) {
+	display: none;
+}
+
+.single .byline,
+.group-blog .byline {
+	display: inline;
+}
+
+.page-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+.featured-image{
+	position: relative;
+	margin: 0 20px 0 0;
+}
+
+.entry-info {
+    padding: 0;
+    position: relative;
+    z-index: 100;
+}
+
+.no-post-thumbnail {
+	.entry-info {
+		margin: 0;
+		padding: 0;
+	}
+	.ft-post-right {
+		margin: 0;
+	}
+}
+
+h2.entry-title {
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 5px;
+	margin-top: 0;
+	@include media-breakpoint-down(md) {
+		font-size: 22px;
+	}
+	a {
+		color: #111;
+		text-decoration: none;
+		&:hover {
+			color: #111;
+			text-decoration: underline;
+		}
+	}
+}
+
+.entry-meta {
+    display: block;
+	font-size: 12px;
+    color: #2f6d9e;
+    margin-bottom: 10px;
+	div {
+		display: inline-block;
+	}
+	a {
+		color: #2f6d9e;
+		text-decoration: none;
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+}
+.single .entry-meta {
+	font-size: 13px;
+}
+
+.entry-footer {
+	color: #999;
+	a {
+		color: #999;
+		text-decoration: none;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+a.read-more {
+	color: $color__primary;
+	text-decoration: none;
+	&:hover {
+		text-decoration: underline;
+	}
+}
+/* Archie */
+.archive, .search {
+	.page-header {
+		border-bottom: 1px solid #e5e5e5;
+		margin-bottom: 25px;
+		padding-bottom: 5px;
+		.entry-title {
+			font-size: 22px;
+		}
+	}
+	.post-grid:nth-of-type(2n+1) {
+		float: left;
+		clear: both;
+	}
+	.post-grid:nth-of-type(2n) {
+		float: right;
+		clear: none;
+	}
+}
+
+/*--------------------------------------------------------------
+## Asides
+--------------------------------------------------------------*/
+.blog .format-aside .entry-title,
+.archive .format-aside .entry-title {
+	display: none;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comments-area {
+	margin-top: 40px;
+	.comments-title {
+		font-size: 20px;
+	}
+	.logged-in-as a {
+		color: $color__primary;
+		font-weight: bold;
+	}
+	.comment-list  {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		li {
+			margin: 30px 0;
+			padding-bottom: 30px;
+			border-bottom: 1px solid #e6e6e6;
+			.avatar {
+				border-radius: 3px;
+				float: left;
+				width: 60px;
+			}
+			.comment-wrapper {
+				background: #f8f9f9 none repeat scroll 0 0;
+				margin-left: 6rem;
+				padding: 20px;
+				position: relative;
+				&:before {
+					border-color: transparent #f6f7f9 transparent transparent;
+					border-style: solid;
+					border-width: 0 10px 10px 0;
+					content: "";
+					height: 0;
+					left: -9px;
+					position: absolute;
+					top: 0;
+					width: 0;
+				}
+				.comment-meta {
+					margin-bottom: 20px;
+					a {
+						text-decoration: none;
+					}
+				}
+				.comment-author {
+					margin-bottom: 20px;
+					a {
+						color: #bbb;
+						font-size: 1.1rem;
+						letter-spacing: 0.3px;
+						text-transform: uppercase;
+					}
+				}
+				.comment-actions {
+					i {
+						padding-left: 10px;
+						font-size: 13px;
+					}
+				}
+			}
+			li {
+				border-bottom: none;
+				margin-bottom: 0;
+				padding-bottom: 0;
+			}
+		}
+	}
+}
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+#respond  {
+	input#submit {
+		width: auto;
+		font-weight: bold;
+	}
+	h3#reply-title {
+		border-bottom: 3px double #e5e5e5;
+		font-size: 18px;
+		margin-bottom: 15px;
+		padding-bottom: 5px;
+		font-weight: bold;
+	}
+}

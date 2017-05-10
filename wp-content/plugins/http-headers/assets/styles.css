@@ -1,0 +1,26 @@
+.hh-table > tbody > tr > th,
+.hh-table > tbody > tr > td,
+.hh-table td{
+	vertical-align: top;
+}
+.hh-table tbody td.hh-td-inner{
+	padding: 0;
+}
+.hh-table > tbody > tr > th{
+	width: 35%;
+}
+.hh-table > tbody > tr > td:nth-child(2){
+	width: 10%;
+}
+.hh-table > tbody > tr > th .description{
+	font-weight: normal;
+}
+.hh-panel{
+	background-color: #fff;
+	padding: .7em 2em 1em;
+	-webkit-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	-moz-box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	border: 1px solid #e5e5e5;
+	margin: 20px 0 0;
+}
